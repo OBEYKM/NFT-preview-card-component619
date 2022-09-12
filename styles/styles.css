@@ -1,0 +1,109 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  color: white;
+  font-family: Outfit , sans-serif;
+}
+
+
+/* card  */
+.card{
+  background-color : hsl(216, 50%, 16%);
+  width: 20rem;
+  padding:1rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius:3%;
+  text-align: center;
+  margin: 10rem auto 2rem;
+
+}
+
+.card_img{
+  border-radius:2%;
+}
+
+.img_overlay{
+  text-align: center;
+  margin: auto;
+  width:90%;
+  height: 54%;
+  border-radius:2%;
+  position: absolute;
+  /* top:1rem; */
+  padding-right:1rem;
+  padding-left: 1rem;
+  right: 0;
+  left: 0;
+  background: hsl(178, 100%, 50%,0.50);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+
+.view_img{
+  text-align: center;
+  margin: 47% auto;
+}
+
+.card_img:hover{
+  opacity: 1;
+}
+
+.card-body{
+  text-align: left;
+  padding:1rem 0 0;
+
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card-title:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.card-text{
+  font-weight: lighter;
+  color: #90a4ae;
+}
+
+
+.row_display_inline{
+  padding: 0;
+  margin: 0;
+display: inline;
+
+}
+
+.item_text{
+  color: hsl(178, 100%, 50%);
+}
+
+.price_row{
+  text-align: right;
+}
+.item_row{
+  text-align: left;
+}
+
+
+.avatar_img{
+  width: 10%;
+  border: solid;
+  border-radius:100%;
+  border-color:#d9d9d9;
+  border-width: thin;
+}
+
+.creation_text{
+  margin-left: 3%
+}
+
+.creation_name{
+  color: white;
+}
+
+.creation_name:hover{
+  color: hsl(178, 100%, 50%);
+}
